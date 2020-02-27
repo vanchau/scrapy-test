@@ -2,7 +2,7 @@ import scrapy
 import time
 from selenium import webdriver
 
-class QuotesSpider(scrapy.Spider):
+class RecipesSpider(scrapy.Spider):
     name = "recipes"
     start_urls = ['https://cookscope.herokuapp.com/']
 
